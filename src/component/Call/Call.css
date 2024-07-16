@@ -1,0 +1,54 @@
+.Cta{
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(/public/img/cta-bg.jpg) fixed center center;
+    padding: 60px 0;
+    margin-top: 4rem;
+
+}
+
+.Call-container{
+    height: 20vh;
+    position: relative;
+}
+
+.Call-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding:5rem;
+    width: 100%;
+    font-family: "irsans";
+}
+
+
+.Call-text__title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.Call-text__subtitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 5rem;
+    line-height: 2.1rem;
+    text-align: right;
+}
+
+.Call-btn{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+
+.Call-btn:hover{
+    background-color: #ffc451;
+    border: 3px solid #ffc451;
+    color: #000;
+}

@@ -1,0 +1,82 @@
+.Team-content{
+    width: 100%;
+    height: 90vh;
+    margin-top: 3rem;
+}
+
+.TeamComps{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width:70%;
+    height: 60vh;
+    padding-right: 5rem;
+}
+
+ .member{
+    margin-top: 3rem;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 2.7rem;
+    position: relative;
+}
+
+.member-img img{
+    width: 18rem;
+    position: relative;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    margin-right: 2rem;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+.social i{
+    color: #484848;
+    font-size: 1.7rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #ddd;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+
+.member:hover .social{
+    opacity: 1;   
+    transition: all 2s; 
+}
+
+
+.social i:hover {
+    background-color: #ffc541;
+}
+
+.member-info{
+    margin: 1.5rem;
+}
+
+.member-info_name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'irsans';
+    color: #151515;
+}
+
+.member-job{
+    font-size: 1.1rem;
+    font-family: 'irsans';
+    color: #aaaaaa;
+}

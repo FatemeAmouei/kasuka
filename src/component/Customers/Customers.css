@@ -1,0 +1,80 @@
+.customer-section{
+    margin-top: 3rem;
+}
+
+.Customers-container{
+    position: relative;
+    margin-top: 0rem;
+}
+
+#customer-container{
+    padding: 80px 0;
+    background: url(../../../public/img/testimonials-bg.jpg) no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    max-height: 100%;
+    
+}
+
+.Customers-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.Customers-text__title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: "irsans";
+}
+
+.Customers-text__subtitle{
+    font-size: 1.1rem;
+    line-height: 1px;
+    font-family: 'irsans';
+    padding-bottom: 1.5rem;
+    color: #ddd;
+}
+
+.slider-img{
+    width: 100px;
+    height: 100px;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+}
+
+.slider-text{
+    font-size: 1.15rem;
+    font-family: 'irsans';
+    padding: 0 19rem;
+    text-align: right;
+    line-height: 2.5rem;
+}
+
+.slider-text i{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.CustomersSwiper{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top:0;
+    left:0; 
+}
+
+.Customers-SwiperSlide {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}

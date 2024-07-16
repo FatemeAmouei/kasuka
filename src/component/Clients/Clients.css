@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    outline:none;
+    border:none;
+    direction:rtl;
+    box-sizing: border-box;
+}
+  
+.Clients{
+    margin-top: 15rem;
+}
+
+.Clients-slider{
+    width: 100%;
+    height: 20vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.Clients-slide__img{
+    width: 7rem;
+    height: 2.5rem;
+    filter: grayscale(100%);
+}
+
+.Clients-slide__img:hover{
+    filter: grayscale(0%);
+}
+
+.mySwiper{
+    width: 90%;
+    height: 15vh;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-pagination-bullet{
+    background-color: #999999;
+    width: 10px;
+    height: 10px;
+    opacity: 0.4;
+    position: relative;
+    bottom: 30px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffc451;
+    opacity: 1;
+}  

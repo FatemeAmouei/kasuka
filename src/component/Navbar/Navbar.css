@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    outline:none;
+    border:none;
+    direction:rtl;
+    box-sizing: border-box;
+}
+
+.section-navbar{
+    margin:0;
+
+    height: 90px;
+    width: 98.85vw;
+    max-width: 100rem;
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.section-navbar__right{
+    max-width:30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo >a{
+    font-size: 35px;
+    font-weight:bold;
+    line-height: 52px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section-navbar__right >img{
+    margin-right: 2rem;
+    max-height: 40px;
+    width: 40px;
+}
+
+.section-navbar__center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar-list-li{
+    color: #fff;
+    position: relative;
+}
+
+.navbar-list-link{
+    font-family: "irsans", irsans, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.active{
+    color: #ffc451;
+}
+
+.navbar-list__link-icon{
+    font-size: 18px;
+    padding-right: 0.5rem;
+    color: #fff;
+}
+
+.navbar-list__dropdown{
+    position: absolute;
+    top: 1.5rem;
+    left: 13px;
+    right: 5px;
+    width: 15rem;
+    padding: 10px 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-list-li:hover .navbar-list-link {
+    color: #ffc451;
+}
+
+.navbar-list-li:hover .navbar-list__link-icon {
+    color: #ffc451;
+}
+
+.navbar-list-li:hover .navbar-list__dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-list__dropdown-item{
+    width: 15rem;
+    line-height: 1.5rem;
+    text-align: right;
+    padding: 0 1rem;
+    text-align: right;
+    line-height: 3rem;
+    color: #000;
+
+}
+
+.navbar-list__dropdown-item:hover{
+    background-color: #ffc451;
+}
+
+.navbar-list__dropdown-subitem:hover .dropdown-list{
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-list__dropdown-link{
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    padding: 10px 1rem;
+    text-decoration: none;
+
+}
+
+.navbar-list__dropdown-link-icon {
+    font-size: 18px;
+    padding-right: 1.5rem;
+    color: #000;
+}
+
+.dropdown-list{
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 15rem;
+    width: 15rem;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 0;
+}
+
+.dropdown-item__subitem{
+    width: 15rem;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item__subitem:hover{
+    background-color: #ffc451;
+}
+
+.section-navbar__btn{
+    margin-right: 5.5rem;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #ffc451;
+    padding: 0.6rem 1.5rem;
+    border-radius: 4px;
+    font-family: "irsans", irsans, sans-serif;
+    text-decoration: none;
+}
+
+.section-navbar__btn:hover{
+    color: #000;
+    background-color: #ffc451;
+}

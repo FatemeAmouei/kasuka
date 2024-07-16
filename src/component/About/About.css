@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+  list-style:none;
+  outline:none;
+  border:none;
+  direction:rtl;
+  box-sizing: border-box;
+}
+
+.about{
+  width: 85%;
+  height: 70vh;
+  margin-top: 2rem;
+}
+
+.about-content{
+  display: flex;
+  width: 90%;
+  height: 40rem;
+  margin-top: 3rem;
+}
+
+.about-right{
+  margin-right:10rem;
+  margin-top: 5px ;
+  width: 100%;
+  text-align: right;
+}
+
+.about-right__title{
+  line-height: 4rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #444444;
+  font-family: "irsans", irsans, sans-serif;
+}
+
+.about-right__text{
+  color: #444444;
+  font-family:"irsans", irsans, sans-serif;
+  text-align: justify;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.list_item{
+  color: #444444;
+  font-family:"irsans", irsans, sans-serif;
+  text-align: justify;
+  line-height: 0.5rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.about-right__icon{
+  color: #ffc451;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.about-left{
+  margin: 5px 1rem 15rem 10rem;
+}
+
+.about-left img{
+  width: 41rem;
+  height:29rem;
+} 

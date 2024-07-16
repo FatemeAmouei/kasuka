@@ -1,0 +1,189 @@
+.Portfolio-container{
+    width: 100%;
+    height: 200vh;
+}
+
+.Portfolio-text{
+    margin-top: 5rem;
+}
+
+.Portfolio-content{
+    margin-top: 4rem;
+}
+
+.Portfolio-content-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfolio-content-list{
+    cursor: pointer;
+    padding: 8px 10px 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "irsans";
+    text-align: center;
+    line-height: 1;
+    color: #444444;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.active-li{
+    color: #151515;
+    background: #ffc451;
+    padding:  0.5rem 1rem;
+    border-radius: 5px;
+
+}
+
+.Portfolio-Allimg{
+    position: relative;
+    width: 85%;
+    height: 1220px;
+    margin: 2rem 9rem 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolioimg{
+    position: absolute;
+    flex: 0 0 33.333333%;
+    padding: 1rem;
+}
+
+
+.img1{
+    position:absolute;
+    left:30px;
+    top:0px;
+}
+
+.img2{
+    position:absolute;
+    left:470px;
+    top:0px;
+}
+
+.img3{
+    position:absolute;
+    left:910px;
+    top:0px;
+}
+
+.img4{
+    position:absolute;
+    left:470px;
+    top:290px;
+}
+
+.img5{
+    position:absolute;
+    left:910px;
+    top:290px;
+}
+
+.img6{
+    position:absolute;
+    left:30px;
+    top:450px;
+}
+
+.img7{
+    position:absolute;
+    left:470px;
+    top:590px;
+}
+
+.img8{
+    position:absolute;
+    left:470px;
+    top:880px;
+}
+
+.img9{
+    position:absolute;
+    left:910px;
+    top:940px;
+}
+
+
+.Portfolioimg-wrap{
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding-right: 2rem;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    overflow: clip;
+}
+
+.Portfolioimg-wrap img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.portfolio-info{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 1.2rem;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transform: translateY(100%);
+    box-sizing: border-box;
+
+}
+
+.portfolio-info h4{
+    font-size: 1.3rem;
+}
+
+.portfolio-info p{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    padding: 0.3rem;
+}
+
+.Portfolioimg-wrap:hover .portfolio-info{
+    opacity: 1;
+    transform: translateY(0);
+    box-sizing: border-box;
+}
+
+.Portfolioimg-wrap:hover img{
+    transform:scale(1.05);
+    max-width:100%;
+}
+
+.portfolio-links{
+    display: flex;
+    justify-self: center;
+    transition: all 0.3s ease;
+}
+
+.portfolio-links a{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.portfolio-links a:hover{
+    color: #ffc451;
+}
