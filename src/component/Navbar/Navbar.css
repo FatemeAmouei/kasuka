@@ -10,9 +10,8 @@
 
 .section-navbar{
     margin:0;
-
     height: 90px;
-    width: 98.85vw;
+    width: 100%;
     max-width: 100rem;
     background-color: #000;
     opacity: 0.8;

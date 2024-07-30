@@ -14,9 +14,9 @@ function Customers(){
           pagination={{clickable: true}}
           Autoplay={{ delay: 3000 }}
           modules={[Pagination,Autoplay]}
-          className="CustomersSwiper">
-            <SwiperSlide className="Customers-SwiperSlide">
-              <div className="Customers-text">
+          className="CustomersSwiper ">
+            <SwiperSlide className="Customers-SwiperSlide ">
+              <div className="Customers-text  wow animate__animated animate__fadeInUp">
               <img className='slider-img' src="https://hivalearn.ir/templates/kasuka/assets/img/testimonials/testimonials-1.jpg" alt="#" />
                 <h3 className="Customers-text__title">ساول گودمن</h3>
                 <h4 className="Customers-text__subtitle">مدیران عامل : پایه گذار</h4>
@@ -28,7 +28,7 @@ function Customers(){
               </div>
             </SwiperSlide>
             <SwiperSlide className="Customers-SwiperSlide">
-              <div className="Customers-text">
+              <div className="Customers-text wow animate__animated animate__fadeInUp">
               <img className='slider-img' src="https://hivalearn.ir/templates/kasuka/assets/img/testimonials/testimonials-2.jpg" alt="#" />
                 <h3 className="Customers-text__title">سارا ویلسون </h3>
                 <h4 className="Customers-text__subtitle"> طراح </h4>
@@ -41,7 +41,7 @@ function Customers(){
               </div>
             </SwiperSlide>
             <SwiperSlide className="Customers-SwiperSlide">
-              <div className="Customers-text">
+              <div className="Customers-text wow animate__animated animate__fadeInUp">
               <img className='slider-img' src="https://hivalearn.ir/templates/kasuka/assets/img/testimonials/testimonials-3.jpg" alt="#" />
                 <h3 className="Customers-text__title">ینا کارلیس  </h3>
                 <h4 className="Customers-text__subtitle"> صاحب فروشگاه </h4>
@@ -53,7 +53,7 @@ function Customers(){
               </div>
             </SwiperSlide>
             <SwiperSlide className="Customers-SwiperSlide">
-              <div className="Customers-text">
+              <div className="Customers-text wow animate__animated animate__fadeInUp">
               <img className='slider-img' src="https://hivalearn.ir/templates/kasuka/assets/img/testimonials/testimonials-4.jpg" alt="#" />
                 <h3 className="Customers-text__title">مت براندون  </h3>
                 <h4 className="Customers-text__subtitle"> فریلنسر </h4>
@@ -65,7 +65,7 @@ function Customers(){
               </div>
             </SwiperSlide>
             <SwiperSlide className="Customers-SwiperSlide">
-              <div className="Customers-text">
+              <div className="Customers-text wow animate__animated animate__fadeInUp">
               <img className='slider-img' src="https://hivalearn.ir/templates/kasuka/assets/img/testimonials/testimonials-5.jpg" alt="#" />
                 <h3 className="Customers-text__title">جان لارسون  </h3>
                 <h4 className="Customers-text__subtitle"> کارآفرین </h4>

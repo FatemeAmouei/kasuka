@@ -5,10 +5,10 @@ export default class Count extends Component {
   render() {
     return (
       <section id="Count">
-        <div className="col-4 Count-right">
+        <div className="col-4 Count-right  wow animate__animated animate__fadeInBottomLeft">
             <img src="https://hivalearn.ir/templates/kasuka/assets/img/counts-img.jpg" alt="img fluid" />
         </div>
-        <div className="col-6 Count-left">
+        <div className="col-6 Count-left wow animate__animated animate__fadeInBottomRight">
           <div className="count-left__title">شایسته ترین لذت را به هر حال ارائه می دهد</div>
           <div className="count-left__subtitle">خود درد ممکن است درد زیادی باشد ، اما دلیل اصلی آن درد است ، اما من به آن زمان می دهم تا مانند یک درد و درد بزرگ در آن فرو برود درد مقصر است</div>
           

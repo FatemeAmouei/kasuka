@@ -8,11 +8,11 @@ export default class Team extends Component {
     return (
       <div>
         <div className="Team-content">
-            <div className="titles">
+            <div className="titles wow animate__animated animate__slideInUp">
                 <h3 className="title">تیم</h3>
                 <h2 className="subtitle">تیم ما را بررسی کنید</h2>
             </div>
-            <div className="TeamComps">
+            <div className="TeamComps wow animate__animated animate__slideInUp">
                 <TeamComp src='https://hivalearn.ir/templates/kasuka/assets/img/team/team-1.jpg' name=" والتر وایت" job="مدیر ارشد اجرایی"/>
                 <TeamComp src='https://hivalearn.ir/templates/kasuka/assets/img/team/team-2.jpg' name=" سارا جونسون" job="مدیر تولید "/>
                 <TeamComp src='https://hivalearn.ir/templates/kasuka/assets/img/team/team-3.jpg' name=" ویلیام اندرسون " job=" CTO "/>

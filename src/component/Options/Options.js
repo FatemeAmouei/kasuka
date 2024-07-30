@@ -8,10 +8,10 @@ export default class Options extends Component {
         <section id="Options">
             <div className="Options">
               <div className="row">
-                <div className="col-6 Options-right">
+                <div className="col-6 Options-right wow animate__animated animate__fadeInBottomLeft">
                   <img src="https://hivalearn.ir/templates/kasuka/assets/img/features.jpg" alt="img fluid" />
                 </div>
-                <div className="col-6 Options-left">
+                <div className="col-6 Options-left wow animate__animated animate__fadeInBottomRight">
                   <div className='Options-left-desc'>
                     <i className='bx bx-receipt Options-left-desc__link'></i>
                     <div className="Options-left-desc__text">

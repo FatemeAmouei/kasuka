@@ -88,11 +88,11 @@ export default function Portfolio() {
   return (
     <section id='Portfolio' className='Portfolio'>
       <div className="Portfolio-container">
-        <div className="Portfolio-text titles">
+        <div className="Portfolio-text titles wow animate__animated animate__slideInUp">
           <h2 className='title'>نمونه کارها</h2>
           <p className="subtitle">نمونه کارهای ما را بررسی کنید</p>
         </div>
-        <div className="Portfolio-content">
+        <div className="Portfolio-content wow animate__animated animate__slideInUp">
           <div className="col-12">
             <ul className="Portfolio-content-ul">
               <li className={`Portfolio-content-list ${activeFilter === '*' ? 'active-li' : ''}`} onClick={() => handleFilterClick('*')}>همه</li>
@@ -102,7 +102,7 @@ export default function Portfolio() {
             </ul>
           </div>
         </div>
-        <div className="Portfolio-Allimg">
+        <div className="Portfolio-Allimg wow animate__animated animate__slideInUp">
           {portfolioItems.filter(item => activeFilter === '*' || item.filter === activeFilter).map((item, index) => (
             <div className={`col-lg-4 Portfolioimg img${index + 1} ${item.filter}`} key={index}>
               <div className="Portfolioimg-wrap">

@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <div className='Header-container' id='container-img'>
         <div className="header-content">
-          <div className="Header-row">
+          <div className="Header-row wow animate__animated animate__backInUp">
             <div className="col-xl-6 col-lg-8">
               <h1>راه حل های قدرتمند دیجیتال با <br/>
                 <span>Kasuka</span>
@@ -15,7 +15,7 @@ export default class Header extends Component {
                 <h2>ما تیمی از بازاریابان با استعداد دیجیتال هستیم</h2>
             </div>
           </div>
-          <div className="allboxes">
+          <div className="allboxes wow animate__animated animate__backInUp">
             <Headercompo icon="bx bx-store" title="متن نمایشی" />      
             <Headercompo icon="bx bx-chart" title=" نمودار کیفی" />      
             <Headercompo icon="bx bx-box" title="  نمونه کار ها"/>      

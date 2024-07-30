@@ -10,7 +10,7 @@ export default class Clients extends Component {
       <div>
         <section id='Clients'>
             <div className="Clients">
-                <div className="Clients-slider">
+                <div className="Clients-slider wow animate__animated animate__slideInUp">
                     <Swiper
                         slidesPerView={6}
                         centeredSlides={false}
